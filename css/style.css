@@ -37,6 +37,23 @@ body
 {
     color: #FFF;
     font-family: 'Rubik', sans-serif;
+    color: #000;
+}
+
+.main-header input:focus
+{
+    outline: 0;
+    background-color: rgb(236, 236, 236);
+}
+
+.main-header button
+{
+    cursor: pointer;
+}
+
+.main-header button:focus
+{
+    outline: 0;
 }
 
 .main-header button
